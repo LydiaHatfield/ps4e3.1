@@ -1,0 +1,11 @@
+hrs = input("Enter Hours:")
+h = float(hrs)
+rateofpay = input("Enter Hourly Pay Rate:")
+rop = float(rateofpay)
+if h > 40:
+    Reg = h * rop
+    Otp = (h - 40) * (rop * .5)
+    xp = Reg + Otp
+else: 
+   xp = h * rop
+print ("Pay:", xp)
